@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="cupcake-container">
+{% for cupcake in order %}
+    <div class="individual-cupcakes">
+        <h3>{{ cupcake["name"] }}</h3>
+        <h4>Flavor: {{ cupcake["flavor"] }}</h4>
+        <h4>Frosting: {{ cupcake["frosting"] }}</h4>
+        <h4><b>Price: ${{ cupcake["price"] }}</b></h4>
+    </div>
+{% endfor %}
+</div>
+{%endblock%}

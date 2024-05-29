@@ -1,0 +1,10 @@
+size,name,price,flavor,frosting,sprinkles,filling
+regular,Stars and Stripes,2.99,Vanilla,Vanilla,"['Red', 'White', 'Blue']",Chocolate
+mini,Oreo,0.99,Chocolate,Cookies and Cream,['Oreo pieces'],
+large,Red Velvet,3.99,Red Velvet,Cream Cheese,[],
+regular,Peanut Butter Cup,2.99,Chocolate,Peanut Butter,['Peanut Butter Cups'],Peanut Butter
+mini,Funfetti,0.99,Vanilla,Vanilla,['Rainbow Sprinkles'],
+large,Lemon Meringue,3.99,Lemon,Meringue,['Lemon Zest'],Lemon Curd
+regular,Mocha Delight,2.99,Chocolate,Mocha,['Coffee Beans'],Coffee
+regular,Blueberry Bliss,2.99,Blueberry,Cream Cheese,['Blueberry Bits'],
+regular,Strawberry,2.99,Stawberry,Vanilla,[],

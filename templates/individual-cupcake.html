@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="cupcake-container">
+    <div class="individual-cupcakes">
+        <h3>{{ cupcake["name"] }}</h3>
+        <h4>Size: {{ cupcake["size"] }}</h4>
+        <h4>Flavor: {{ cupcake["flavor"] }}</h4>
+        <h4>Frosting: {{ cupcake["frosting"] }}</h4>
+        <h4>Sprinkles: {{ cupcake["sprinkles"] }}</h4>
+        <h4>Filling: {{ cupcake["filling"] }}</h4>
+        <h4><b>Price: ${{ cupcake["price"] }}</b></h4>
+        <a href="{{ url_for('all_cupcakes' ) }}">
+            <button>Return Home</button>
+        </a>
+    </div>
+</div>
+{%endblock%}
+
+<!-- size,name,price,flavor,frosting,sprinkles,filling -->
